@@ -6,6 +6,25 @@ import java.util.Iterator;
 
 public class controller {
 
+
+
+
+    class Solution {
+        public int hIndex(int[] citations) {
+
+
+
+
+
+
+
+
+            return 1;
+        }
+    }
+
+
+
     public static void main(String[] args) {
         ArrayList<String> strings = new ArrayList<>();
         strings.add("1");
@@ -25,6 +44,9 @@ public class controller {
 
         System.out.println(strings);
     }
+
+
+
 
 }
   
