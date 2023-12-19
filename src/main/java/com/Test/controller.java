@@ -9,43 +9,35 @@ public class controller {
 
 
 
-    class Solution {
-        public int hIndex(int[] citations) {
 
-
-
-
-
-
-
-
-            return 1;
-        }
-    }
 
 
 
     public static void main(String[] args) {
+        /*int[][] es = {{0,0}, {0,0}};
+        new controller().maximumMinutes(es);*/
+
         ArrayList<String> strings = new ArrayList<>();
+        strings.add("0");
         strings.add("1");
         strings.add("2");
         strings.add("3");
-        strings.add("4");
-        strings.add("5");
-        strings.add("2");
-        Iterator<String> iterator = strings.iterator();
+        strings.remove(0);
+        System.out.println(strings.get(0));
 
-        while (iterator.hasNext()){
-            String next = iterator.next();
-            if ("2".equals(next)){
-                iterator.remove();
-            }
-        }
-
-        System.out.println(strings);
+    }
+    public int maximumMinutes(int[][] grid) {
+        System.out.println(grid[0][0]);
+        huo(grid);
+        System.out.println(grid[0][0]);
+        return 0;
     }
 
-
+    private void huo(int[][] grid) {
+        if(grid[3][3] != 0){
+            System.out.println(1112312312);
+        }
+    }
 
 
 }
