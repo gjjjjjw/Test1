@@ -42,7 +42,7 @@ public class licou1901 {
                 }
             }
             if(m+1 <= mat.length){
-                if(mat[m][n] < mat[m-1][n]){
+                if(mat[m][n] < mat[m+1][n]){
                     m = m+1;
                     continue;
                 }
